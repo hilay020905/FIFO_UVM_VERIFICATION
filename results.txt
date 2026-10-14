@@ -1,0 +1,397 @@
+# ** Note: (vsim-220) 'C:/altera_pro/26.1.1/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# vsim -c tb -l results.txt -do "run -all; quit" 
+# Start time: 11:53:37 on Oct 14,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.3 win64 Sep 15 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.fifo_if(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.FIFO_tb_sv_unit(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.tb(fast)
+# Loading C:/altera_pro/26.1.1/questa_fse/uvm-1.1d\win64\uvm_dpi.dll
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test fifo_test...
+# UVM_INFO FIFO_tb.sv(146) @ 90: uvm_test_top.env.agent.drv [DRV] DUT reset done
+# UVM_INFO FIFO_tb.sv(168) @ 130: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 150: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:0 dout:0 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(252) @ 150: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:0 dout:0 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(280) @ 150: uvm_test_top.env.sco [SCO] FIFO IS EMPTY
+# UVM_INFO FIFO_tb.sv(215) @ 190: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:52 dout:0 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(252) @ 190: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:52 dout:0 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(157) @ 190: uvm_test_top.env.agent.drv [DRV] WRITE data:52
+# UVM_INFO FIFO_tb.sv(168) @ 250: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 270: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:52 dout:52 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 270: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:52 dout:52 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 270: uvm_test_top.env.sco [SCO] DATA MATCH (52)
+# UVM_INFO FIFO_tb.sv(215) @ 310: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:243 dout:0 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(252) @ 310: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:243 dout:0 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(157) @ 310: uvm_test_top.env.agent.drv [DRV] WRITE data:243
+# UVM_INFO FIFO_tb.sv(215) @ 370: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:231 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 370: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:231 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 370: uvm_test_top.env.agent.drv [DRV] WRITE data:231
+# UVM_INFO FIFO_tb.sv(168) @ 430: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 450: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:231 dout:243 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 450: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:231 dout:243 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 450: uvm_test_top.env.sco [SCO] DATA MATCH (243)
+# UVM_INFO FIFO_tb.sv(215) @ 490: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:194 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 490: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:194 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 490: uvm_test_top.env.agent.drv [DRV] WRITE data:194
+# UVM_INFO FIFO_tb.sv(215) @ 550: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:156 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 550: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:156 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 550: uvm_test_top.env.agent.drv [DRV] WRITE data:156
+# UVM_INFO FIFO_tb.sv(168) @ 610: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 630: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:156 dout:231 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 630: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:156 dout:231 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 630: uvm_test_top.env.sco [SCO] DATA MATCH (231)
+# UVM_INFO FIFO_tb.sv(168) @ 670: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 690: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:156 dout:194 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 690: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:156 dout:194 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 690: uvm_test_top.env.sco [SCO] DATA MATCH (194)
+# UVM_INFO FIFO_tb.sv(215) @ 730: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:247 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 730: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:247 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 730: uvm_test_top.env.agent.drv [DRV] WRITE data:247
+# UVM_INFO FIFO_tb.sv(215) @ 790: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:209 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 790: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:209 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 790: uvm_test_top.env.agent.drv [DRV] WRITE data:209
+# UVM_INFO FIFO_tb.sv(168) @ 850: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 870: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:209 dout:156 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 870: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:209 dout:156 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 870: uvm_test_top.env.sco [SCO] DATA MATCH (156)
+# UVM_INFO FIFO_tb.sv(215) @ 910: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:84 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 910: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:84 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 910: uvm_test_top.env.agent.drv [DRV] WRITE data:84
+# UVM_INFO FIFO_tb.sv(168) @ 970: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 990: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:84 dout:247 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 990: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:84 dout:247 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 990: uvm_test_top.env.sco [SCO] DATA MATCH (247)
+# UVM_INFO FIFO_tb.sv(168) @ 1030: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 1050: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:84 dout:209 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1050: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:84 dout:209 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 1050: uvm_test_top.env.sco [SCO] DATA MATCH (209)
+# UVM_INFO FIFO_tb.sv(215) @ 1090: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:19 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1090: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:19 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 1090: uvm_test_top.env.agent.drv [DRV] WRITE data:19
+# UVM_INFO FIFO_tb.sv(168) @ 1150: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 1170: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:19 dout:84 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1170: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:19 dout:84 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 1170: uvm_test_top.env.sco [SCO] DATA MATCH (84)
+# UVM_INFO FIFO_tb.sv(168) @ 1210: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 1230: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:19 dout:19 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1230: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:19 dout:19 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 1230: uvm_test_top.env.sco [SCO] DATA MATCH (19)
+# UVM_INFO FIFO_tb.sv(215) @ 1270: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:37 dout:0 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(252) @ 1270: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:37 dout:0 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(157) @ 1270: uvm_test_top.env.agent.drv [DRV] WRITE data:37
+# UVM_INFO FIFO_tb.sv(215) @ 1330: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:60 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1330: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:60 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 1330: uvm_test_top.env.agent.drv [DRV] WRITE data:60
+# UVM_INFO FIFO_tb.sv(215) @ 1390: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:9 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1390: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:9 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 1390: uvm_test_top.env.agent.drv [DRV] WRITE data:9
+# UVM_INFO FIFO_tb.sv(215) @ 1450: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:188 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1450: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:188 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 1450: uvm_test_top.env.agent.drv [DRV] WRITE data:188
+# UVM_INFO FIFO_tb.sv(215) @ 1510: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:68 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1510: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:68 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 1510: uvm_test_top.env.agent.drv [DRV] WRITE data:68
+# UVM_INFO FIFO_tb.sv(168) @ 1570: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 1590: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:68 dout:37 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1590: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:68 dout:37 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 1590: uvm_test_top.env.sco [SCO] DATA MATCH (37)
+# UVM_INFO FIFO_tb.sv(168) @ 1630: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 1650: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:68 dout:60 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1650: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:68 dout:60 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 1650: uvm_test_top.env.sco [SCO] DATA MATCH (60)
+# UVM_INFO FIFO_tb.sv(215) @ 1690: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:92 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1690: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:92 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 1690: uvm_test_top.env.agent.drv [DRV] WRITE data:92
+# UVM_INFO FIFO_tb.sv(168) @ 1750: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 1770: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:92 dout:9 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1770: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:92 dout:9 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 1770: uvm_test_top.env.sco [SCO] DATA MATCH (9)
+# UVM_INFO FIFO_tb.sv(168) @ 1810: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 1830: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:92 dout:188 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1830: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:92 dout:188 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 1830: uvm_test_top.env.sco [SCO] DATA MATCH (188)
+# UVM_INFO FIFO_tb.sv(215) @ 1870: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:174 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1870: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:174 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 1870: uvm_test_top.env.agent.drv [DRV] WRITE data:174
+# UVM_INFO FIFO_tb.sv(168) @ 1930: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 1950: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:174 dout:68 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 1950: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:174 dout:68 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 1950: uvm_test_top.env.sco [SCO] DATA MATCH (68)
+# UVM_INFO FIFO_tb.sv(168) @ 1990: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 2010: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:174 dout:92 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2010: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:174 dout:92 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 2010: uvm_test_top.env.sco [SCO] DATA MATCH (92)
+# UVM_INFO FIFO_tb.sv(215) @ 2050: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:41 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2050: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:41 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 2050: uvm_test_top.env.agent.drv [DRV] WRITE data:41
+# UVM_INFO FIFO_tb.sv(215) @ 2110: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:36 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2110: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:36 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 2110: uvm_test_top.env.agent.drv [DRV] WRITE data:36
+# UVM_INFO FIFO_tb.sv(168) @ 2170: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 2190: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:36 dout:174 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2190: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:36 dout:174 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 2190: uvm_test_top.env.sco [SCO] DATA MATCH (174)
+# UVM_INFO FIFO_tb.sv(215) @ 2230: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:73 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2230: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:73 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 2230: uvm_test_top.env.agent.drv [DRV] WRITE data:73
+# UVM_INFO FIFO_tb.sv(215) @ 2290: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:168 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2290: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:168 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 2290: uvm_test_top.env.agent.drv [DRV] WRITE data:168
+# UVM_INFO FIFO_tb.sv(168) @ 2350: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 2370: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:168 dout:41 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2370: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:168 dout:41 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 2370: uvm_test_top.env.sco [SCO] DATA MATCH (41)
+# UVM_INFO FIFO_tb.sv(168) @ 2410: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 2430: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:168 dout:36 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2430: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:168 dout:36 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 2430: uvm_test_top.env.sco [SCO] DATA MATCH (36)
+# UVM_INFO FIFO_tb.sv(215) @ 2470: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:93 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2470: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:93 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 2470: uvm_test_top.env.agent.drv [DRV] WRITE data:93
+# UVM_INFO FIFO_tb.sv(215) @ 2530: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:131 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2530: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:131 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 2530: uvm_test_top.env.agent.drv [DRV] WRITE data:131
+# UVM_INFO FIFO_tb.sv(215) @ 2590: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:104 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2590: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:104 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 2590: uvm_test_top.env.agent.drv [DRV] WRITE data:104
+# UVM_INFO FIFO_tb.sv(168) @ 2650: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 2670: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:104 dout:73 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2670: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:104 dout:73 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 2670: uvm_test_top.env.sco [SCO] DATA MATCH (73)
+# UVM_INFO FIFO_tb.sv(215) @ 2710: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:164 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2710: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:164 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 2710: uvm_test_top.env.agent.drv [DRV] WRITE data:164
+# UVM_INFO FIFO_tb.sv(215) @ 2770: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:60 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2770: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:60 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 2770: uvm_test_top.env.agent.drv [DRV] WRITE data:60
+# UVM_INFO FIFO_tb.sv(168) @ 2830: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 2850: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:60 dout:168 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2850: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:60 dout:168 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 2850: uvm_test_top.env.sco [SCO] DATA MATCH (168)
+# UVM_INFO FIFO_tb.sv(215) @ 2890: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:248 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2890: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:248 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 2890: uvm_test_top.env.agent.drv [DRV] WRITE data:248
+# UVM_INFO FIFO_tb.sv(168) @ 2950: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 2970: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:248 dout:93 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 2970: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:248 dout:93 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 2970: uvm_test_top.env.sco [SCO] DATA MATCH (93)
+# UVM_INFO FIFO_tb.sv(215) @ 3010: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:238 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3010: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:238 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 3010: uvm_test_top.env.agent.drv [DRV] WRITE data:238
+# UVM_INFO FIFO_tb.sv(215) @ 3070: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:170 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3070: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:170 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 3070: uvm_test_top.env.agent.drv [DRV] WRITE data:170
+# UVM_INFO FIFO_tb.sv(215) @ 3130: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:205 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3130: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:205 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 3130: uvm_test_top.env.agent.drv [DRV] WRITE data:205
+# UVM_INFO FIFO_tb.sv(215) @ 3190: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:240 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3190: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:240 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 3190: uvm_test_top.env.agent.drv [DRV] WRITE data:240
+# UVM_INFO FIFO_tb.sv(215) @ 3250: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:254 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3250: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:254 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 3250: uvm_test_top.env.agent.drv [DRV] WRITE data:254
+# UVM_INFO FIFO_tb.sv(215) @ 3310: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:139 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3310: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:139 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 3310: uvm_test_top.env.agent.drv [DRV] WRITE data:139
+# UVM_INFO FIFO_tb.sv(215) @ 3370: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:6 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3370: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:6 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 3370: uvm_test_top.env.agent.drv [DRV] WRITE data:6
+# UVM_INFO FIFO_tb.sv(215) @ 3430: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:96 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3430: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:96 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 3430: uvm_test_top.env.agent.drv [DRV] WRITE data:96
+# UVM_INFO FIFO_tb.sv(215) @ 3490: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:80 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3490: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:80 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 3490: uvm_test_top.env.agent.drv [DRV] WRITE data:80
+# UVM_INFO FIFO_tb.sv(215) @ 3550: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:192 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3550: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:192 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 3550: uvm_test_top.env.agent.drv [DRV] WRITE data:192
+# UVM_INFO FIFO_tb.sv(215) @ 3610: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:121 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3610: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:121 dout:0 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(157) @ 3610: uvm_test_top.env.agent.drv [DRV] WRITE data:121
+# UVM_INFO FIFO_tb.sv(215) @ 3670: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:244 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3670: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:244 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(262) @ 3670: uvm_test_top.env.sco [SCO] FIFO is full
+# UVM_INFO FIFO_tb.sv(157) @ 3670: uvm_test_top.env.agent.drv [DRV] WRITE data:244
+# UVM_INFO FIFO_tb.sv(215) @ 3730: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:191 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3730: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:191 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(262) @ 3730: uvm_test_top.env.sco [SCO] FIFO is full
+# UVM_INFO FIFO_tb.sv(157) @ 3730: uvm_test_top.env.agent.drv [DRV] WRITE data:191
+# UVM_INFO FIFO_tb.sv(215) @ 3790: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:252 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3790: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:252 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(262) @ 3790: uvm_test_top.env.sco [SCO] FIFO is full
+# UVM_INFO FIFO_tb.sv(157) @ 3790: uvm_test_top.env.agent.drv [DRV] WRITE data:252
+# UVM_INFO FIFO_tb.sv(215) @ 3850: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:147 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3850: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:147 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(262) @ 3850: uvm_test_top.env.sco [SCO] FIFO is full
+# UVM_INFO FIFO_tb.sv(157) @ 3850: uvm_test_top.env.agent.drv [DRV] WRITE data:147
+# UVM_INFO FIFO_tb.sv(215) @ 3910: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:227 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3910: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:227 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(262) @ 3910: uvm_test_top.env.sco [SCO] FIFO is full
+# UVM_INFO FIFO_tb.sv(157) @ 3910: uvm_test_top.env.agent.drv [DRV] WRITE data:227
+# UVM_INFO FIFO_tb.sv(215) @ 3970: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:223 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 3970: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:223 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(262) @ 3970: uvm_test_top.env.sco [SCO] FIFO is full
+# UVM_INFO FIFO_tb.sv(157) @ 3970: uvm_test_top.env.agent.drv [DRV] WRITE data:223
+# UVM_INFO FIFO_tb.sv(215) @ 4030: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:235 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4030: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:235 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(262) @ 4030: uvm_test_top.env.sco [SCO] FIFO is full
+# UVM_INFO FIFO_tb.sv(157) @ 4030: uvm_test_top.env.agent.drv [DRV] WRITE data:235
+# UVM_INFO FIFO_tb.sv(215) @ 4090: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:146 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4090: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:146 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(262) @ 4090: uvm_test_top.env.sco [SCO] FIFO is full
+# UVM_INFO FIFO_tb.sv(157) @ 4090: uvm_test_top.env.agent.drv [DRV] WRITE data:146
+# UVM_INFO FIFO_tb.sv(215) @ 4150: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:12 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4150: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:12 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(262) @ 4150: uvm_test_top.env.sco [SCO] FIFO is full
+# UVM_INFO FIFO_tb.sv(157) @ 4150: uvm_test_top.env.agent.drv [DRV] WRITE data:12
+# UVM_INFO FIFO_tb.sv(215) @ 4210: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:135 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4210: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:135 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(262) @ 4210: uvm_test_top.env.sco [SCO] FIFO is full
+# UVM_INFO FIFO_tb.sv(157) @ 4210: uvm_test_top.env.agent.drv [DRV] WRITE data:135
+# UVM_INFO FIFO_tb.sv(215) @ 4270: uvm_test_top.env.agent.mon [MON] wr:1 rd:0 din:40 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4270: uvm_test_top.env.sco [SCO] wr:1 rd:0 din:40 dout:0 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(262) @ 4270: uvm_test_top.env.sco [SCO] FIFO is full
+# UVM_INFO FIFO_tb.sv(157) @ 4270: uvm_test_top.env.agent.drv [DRV] WRITE data:40
+# UVM_INFO FIFO_tb.sv(168) @ 4330: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 4350: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:131 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4350: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:131 full:1 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 4350: uvm_test_top.env.sco [SCO] DATA MATCH (131)
+# UVM_INFO FIFO_tb.sv(168) @ 4390: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 4410: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:104 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4410: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:104 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 4410: uvm_test_top.env.sco [SCO] DATA MATCH (104)
+# UVM_INFO FIFO_tb.sv(168) @ 4450: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 4470: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:164 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4470: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:164 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 4470: uvm_test_top.env.sco [SCO] DATA MATCH (164)
+# UVM_INFO FIFO_tb.sv(168) @ 4510: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 4530: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:60 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4530: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:60 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 4530: uvm_test_top.env.sco [SCO] DATA MATCH (60)
+# UVM_INFO FIFO_tb.sv(168) @ 4570: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 4590: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:248 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4590: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:248 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 4590: uvm_test_top.env.sco [SCO] DATA MATCH (248)
+# UVM_INFO FIFO_tb.sv(168) @ 4630: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 4650: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:238 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4650: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:238 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 4650: uvm_test_top.env.sco [SCO] DATA MATCH (238)
+# UVM_INFO FIFO_tb.sv(168) @ 4690: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 4710: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:170 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4710: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:170 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 4710: uvm_test_top.env.sco [SCO] DATA MATCH (170)
+# UVM_INFO FIFO_tb.sv(168) @ 4750: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 4770: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:205 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4770: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:205 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 4770: uvm_test_top.env.sco [SCO] DATA MATCH (205)
+# UVM_INFO FIFO_tb.sv(168) @ 4810: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 4830: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:240 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4830: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:240 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 4830: uvm_test_top.env.sco [SCO] DATA MATCH (240)
+# UVM_INFO FIFO_tb.sv(168) @ 4870: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 4890: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:254 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4890: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:254 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 4890: uvm_test_top.env.sco [SCO] DATA MATCH (254)
+# UVM_INFO FIFO_tb.sv(168) @ 4930: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 4950: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:139 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 4950: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:139 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 4950: uvm_test_top.env.sco [SCO] DATA MATCH (139)
+# UVM_INFO FIFO_tb.sv(168) @ 4990: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 5010: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:6 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 5010: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:6 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 5010: uvm_test_top.env.sco [SCO] DATA MATCH (6)
+# UVM_INFO FIFO_tb.sv(168) @ 5050: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 5070: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:96 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 5070: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:96 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 5070: uvm_test_top.env.sco [SCO] DATA MATCH (96)
+# UVM_INFO FIFO_tb.sv(168) @ 5110: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 5130: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:80 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 5130: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:80 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 5130: uvm_test_top.env.sco [SCO] DATA MATCH (80)
+# UVM_INFO FIFO_tb.sv(168) @ 5170: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 5190: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:192 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 5190: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:192 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 5190: uvm_test_top.env.sco [SCO] DATA MATCH (192)
+# UVM_INFO FIFO_tb.sv(168) @ 5230: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 5250: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:121 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(252) @ 5250: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:121 full:0 empty:0
+# UVM_INFO FIFO_tb.sv(272) @ 5250: uvm_test_top.env.sco [SCO] DATA MATCH (121)
+# UVM_INFO FIFO_tb.sv(168) @ 5290: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 5310: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:121 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(252) @ 5310: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:121 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(280) @ 5310: uvm_test_top.env.sco [SCO] FIFO IS EMPTY
+# UVM_INFO FIFO_tb.sv(168) @ 5350: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 5370: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:121 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(252) @ 5370: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:121 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(280) @ 5370: uvm_test_top.env.sco [SCO] FIFO IS EMPTY
+# UVM_INFO FIFO_tb.sv(168) @ 5410: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 5430: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:121 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(252) @ 5430: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:121 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(280) @ 5430: uvm_test_top.env.sco [SCO] FIFO IS EMPTY
+# UVM_INFO FIFO_tb.sv(168) @ 5470: uvm_test_top.env.agent.drv [DRV] READ
+# UVM_INFO FIFO_tb.sv(215) @ 5490: uvm_test_top.env.agent.mon [MON] wr:0 rd:1 din:40 dout:121 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(252) @ 5490: uvm_test_top.env.sco [SCO] wr:0 rd:1 din:40 dout:121 full:0 empty:1
+# UVM_INFO FIFO_tb.sv(280) @ 5490: uvm_test_top.env.sco [SCO] FIFO IS EMPTY
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 5690: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO FIFO_tb.sv(287) @ 5690: uvm_test_top.env.sco [SCO] -------------------------------------------
+# UVM_INFO FIFO_tb.sv(288) @ 5690: uvm_test_top.env.sco [SCO] Writes accepted:37  Reads checked:37  Writes-while-full:11  Reads-while-empty:5
+# UVM_INFO FIFO_tb.sv(290) @ 5690: uvm_test_top.env.sco [SCO] TEST PASSED : Error Count 0
+# UVM_INFO FIFO_tb.sv(292) @ 5690: uvm_test_top.env.sco [SCO] -------------------------------------------
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  332
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [DRV]    91
+# [MON]    90
+# [Questa UVM]     2
+# [RNTST]     1
+# [SCO]   147
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/altera_pro/26.1.1/questa_fse/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 5690 ns  Iteration: 54  Instance: /tb
+# End time: 11:53:40 on Oct 14,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
